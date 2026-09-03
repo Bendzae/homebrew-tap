@@ -1,25 +1,25 @@
 class Showrunner < Formula
   desc "A terminal UI for managing multiple coding agent sessions organized by projects and tasks"
   homepage "https://github.com/Bendzae/showrunner"
-  version "0.21.0"
+  version "0.22.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Bendzae/showrunner/releases/download/v0.21.0/showrunner-aarch64-apple-darwin.tar.xz"
-      sha256 "5a02a7deb4e9cef9422839aaf90dd7c5c64ff15f845c70f40cc87d51fedc23d2"
+      url "https://github.com/Bendzae/showrunner/releases/download/v0.22.0/showrunner-aarch64-apple-darwin.tar.xz"
+      sha256 "64c654f1c216a6cdac9a8b0148799e347efdd8a3d45b08ae6f1c35843e1f307e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Bendzae/showrunner/releases/download/v0.21.0/showrunner-x86_64-apple-darwin.tar.xz"
-      sha256 "f9c524b938b620cbf931e3861278f0bb2feec99012610dcc80d654ba29b4267d"
+      url "https://github.com/Bendzae/showrunner/releases/download/v0.22.0/showrunner-x86_64-apple-darwin.tar.xz"
+      sha256 "a14da8a6eb6f615380fee1c9cb2d2bba8429d673735a3eab3c8c821eceeb991a"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Bendzae/showrunner/releases/download/v0.21.0/showrunner-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "6912479303a887c572c1fdb3845c21fe1b86945c69fdd8725c8a71edae71e395"
+      url "https://github.com/Bendzae/showrunner/releases/download/v0.22.0/showrunner-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "ae319ec198ba098ef9f41cec1d9218b748ab9ae0668ef2b6135d429a370bb7b6"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Bendzae/showrunner/releases/download/v0.21.0/showrunner-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "75ca0096a5aab07f269d238904f2984c2f1281212ea27b9e329dd65b52079c80"
+      url "https://github.com/Bendzae/showrunner/releases/download/v0.22.0/showrunner-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "62c4d3154f56f77d72b913969f96fb5f48c7552745148f2ce2c409e6466d47be"
     end
   end
   license "MIT"
